@@ -21,7 +21,7 @@ vim.opt.scrolloff = 8
 vim.opt.clipboard = "unnamedplus"
 
 -- Auto indentation and smart indentation
-vim.opt.smartindent = true -- add indentation after {, before }, after word in cinwords
+vim.opt.smartindent = false -- add indentation after {, before }, after word in cinwords
 vim.opt.autoindent = true -- match previous line indentation (default to on)
 
 vim.opt.termguicolors = true
